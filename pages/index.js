@@ -8,7 +8,7 @@ import Header from '../components/Header';
 import Banner from '../components/Banner';
 import Products from '../components/Products';
 import Newsletter from '../components/Newsletter';
-import Footer from '../components/footer';
+import Footer from '../components/Footer';
 
 export async function getStaticProps() {
   
@@ -41,9 +41,6 @@ const Home = ({products}) => {
           <Footer />
           <style jsx global>
             {`
-              :root{
-                --wrapper-width:1048px;
-              }
               *{
                 margin:0;
                 padding:0;
@@ -69,7 +66,5 @@ const Home = ({products}) => {
       </CartStorage>            
   )
 }
-
-
   
 export default Home;
