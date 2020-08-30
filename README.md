@@ -1,20 +1,21 @@
-<h1> Corebiz Front-end Challenge </h1>
-See the <a href="https://corebiz-front-end-challenge.vercel.app/">Deploy</a>
+# Corebiz Front-end Challenge 
+>See the [Deploy](https://corebiz-front-end-challenge.vercel.app/)
 
-<h2>How to Run</h2>
-<h3>Running locally in development mode</h3>
-<code>
+## How to Run
+### Running locally in development mode
+~~~
 $ git clone https://github.com/miguel-rosa/corebiz-front-end-challenge
-$ cd corebiz-front-end-challenge 
-$ npm install 
+$ cd corebiz-front-end-challenge
+$ npm install
 $ npm run dev
-</code>
-<p>Open http://localhost:3000/ </p>
+~~~
 
-<h3>Building and deploying in production</h3>
-<code>
+Open http://localhost:3000/
+
+### Building and deploying in production
+~~~
 $ git clone https://github.com/miguel-rosa/corebiz-front-end-challenge
 $ cd corebiz-front-end-challenge
 $ npm run build
 $ npm start 
-</code>
+~~~
