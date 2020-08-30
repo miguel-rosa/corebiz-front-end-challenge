@@ -25,15 +25,23 @@
     font-weight: bold;
     font-size: 22px;
     line-height: 22px;
+    text-align:center;
 }
 .title_success{
     font-weight: bold;
     line-height: 16px;
+    text-align:center;
 
 }
 .text_success{
     font-weight: 500;
     font-size: 14px;
+    text-align:center;
+}
+@media (max-width:768px){
+    .text_success{
+        margin-top:10px;
+    }
 }
 .form{
     width:100%;
@@ -107,5 +115,6 @@
     .button_success,
     .button{
         width:100%;
+        padding:15px 0;
     }
 }
