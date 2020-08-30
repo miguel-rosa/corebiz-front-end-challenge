@@ -74,7 +74,6 @@ const Newsletter = () => {
                     >   
                         <fieldset className={styles.fieldset}>
                             <input 
-                                required
                                 name="name"
                                 type="text"
                                 placeholder="Digite seu nome"
@@ -85,7 +84,6 @@ const Newsletter = () => {
                         </fieldset>
                         <fieldset className={styles.fieldset}>
                             <input 
-                                required
                                 name="email"
                                 type="text"
                                 placeholder="Digite seu email"
